@@ -18,5 +18,9 @@
   "homepage": "https://github.com/CristinaAcosta/TeamProfileGenerator#readme",
   "dependencies": {
     "inquirer": "^8.0.0"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }
+
