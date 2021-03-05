@@ -1,0 +1,8 @@
+List:
+Make html file for team roster
+Link email address to email in roster 
+Link github page to github name in roster
+Prompt user to add team manager’s name, employee ID, email address, and office number
+Menu to add engineer or intern
+When selected, I enter engineer or interns name, ID, email, and GitHub username then taken back to menu
+HTML is generated at the end
