@@ -1,6 +1,8 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
+const lib = require('lib');
 const Team = require('./Team')
+
 
 const managerQuestions = [
 {
