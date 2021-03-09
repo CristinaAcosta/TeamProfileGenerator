@@ -1,10 +1,10 @@
-const Manager = require("../lib/Manager");
-const Engineer = require("../lib/Engineer");
-const Intern = require("../lib/Intern");
+const Manager = require("../lib/Manager")
+const Engineer = require("../lib/Engineer")
+const Intern = require("../lib/Intern")
 
 const createTeam = team => {
 // html within backticks for manager card creation 
-const generateManager = manager => {
+const generateManagers = manager => {
     return `
     <div class="card" style="width: 18rem;">
   <div class="card-body">
