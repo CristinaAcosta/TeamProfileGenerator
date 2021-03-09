@@ -24,6 +24,6 @@ const engineerQuestions = [
 },
 ]
 
-nq.prompt(quest).then( ans => {
+inq.prompt(quest).then( ans => {
     // Put HTML file 
-}
+})
