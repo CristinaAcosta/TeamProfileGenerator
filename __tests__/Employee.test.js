@@ -1,9 +1,8 @@
-const Engineer = require("../lib/Engineer");
+const Employee = require("../lib/Employee");
 
-test("getRole() testing to see if it actually returns \"Engineer\"", () => {
-  //define the test value, "Engineer"
-  const testValue = "Engineer";
-  const actualValue = new Engineer("Foo", 1, "test@test.com", testValue);
+test("getRole() testing to see if it actually returns employee", () => {
+  const testValue = "Employee";
+  const actualValue = new Employee("Foo", 1, "test@test.com", testValue);
   expect(actualValue.getRole()).toBe(testValue);
 })
 
