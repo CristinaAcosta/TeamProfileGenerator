@@ -19,9 +19,17 @@ I was able to re learn node and how to create a prompt function but being able t
     
 ## Website Images:
 
+<img width="1416" alt="Screen Shot 2021-03-11 at 8 21 41 PM" src="https://user-images.githubusercontent.com/74034987/110891720-6cb6ca00-82a7-11eb-885c-c09446614c9a.png">
+
 ## Author:
 - Cristina Acosta 
 
+## Tests:
+Below is the link to the inegrated terminal that pops up the HTML
+https://youtu.be/2SkqBdgVzic
+
+Below is the link to the all four tests that are run to ensure the terminal is working
+https://youtu.be/F5H78ItFKpA
 
 ## License:
 The MIT License (MIT)
