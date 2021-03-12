@@ -1,10 +1,12 @@
-const Manager = require("../lib/Manager")
-const Engineer = require("../lib/Engineer")
-const Intern = require("../lib/Intern")
+const Employee = require("../lib/Employee");
+const Manager = require("../lib/Manager");
+const Intern = require("../lib/Intern");
+const Engineer = require("../lib/Engineer");
+
 
 const createTeam = team => {
-// html within backticks for manager card creation 
-const generateManagers = manager => {
+  // html within backticks for manager card creation 
+const generateManager = manager => {
     return `
     <div class="card" style="width: 18rem;">
   <div class="card-body">
@@ -19,10 +21,10 @@ const generateManagers = manager => {
 </div>
 </div>
     
-    
     `;
 };
-// create intern (copy 3-20)
+
+
 const generateIntern = intern => {
     return `
     <div class="card" style="width: 18rem;">
@@ -43,8 +45,9 @@ const generateIntern = intern => {
 
 };
 
+
 // create engineer 
-const generateEngineer = engineer => {
+const generareEngineer = engineer => {
     return `
     <div class="card" style="width: 18rem;">
   <div class="card-body">
@@ -54,7 +57,7 @@ const generateEngineer = engineer => {
   <ul class="list-group list-group-flush">
     <li class="list-group-item">${engineer.getId()}</li>
     <li class="list-group-item"> Email: <a href="mailto:${engineer.getEmail()}>${engineer.getEmail()}<a></li>
-    <li class="list-group-item">Github: <a href="mailto:${engineer.github()}>${engineer.github()}<a></li>
+    <li class="list-group-item">Github: <a href="www.github.com/${engineer.github()}>${engineer.github()}<a></li>
   </ul>
 </div>
 </div>

@@ -1,29 +1,7 @@
-const inquirer = require('inquirer');
-const fs = require('fs');
+const Intern = require("../lib/Intern");
 
-const internQuestions = [
-{
-    message: 'What is their name?',
-      name: 'name',
-      type: 'input',
-},
-{
-    message: 'What is their ID number?',
-      name: 'id',
-      type: 'input',
-},
-{
-    message: 'What is their email?',
-      name: 'email',
-      type: 'input',
-},
-{
-    message: 'What is their school?',
-      name: 'school',
-      type: 'input',
-},
-]
-
-nq.prompt(quest).then( ans => {
-    // Put HTML file 
-}
+test("getRole() testing to return intern", () => {
+  const testValue = "Intern";
+  const actualValue = new Intern("Foo", 1, "test@test.com", testValue);
+  expect(actualValue.getRole()).toBe(testValue);
+})

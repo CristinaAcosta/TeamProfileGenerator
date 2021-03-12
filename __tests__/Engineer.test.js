@@ -1,29 +1,20 @@
-const inquirer = require('inquirer');
-const fs = require('fs');
+// connect to the engineer file in lib
+const Engineer = require("../lib/Engineer");
 
-const engineerQuestions = [
-{
-    message: 'What is their name?',
-      name: 'name',
-      type: 'input',
-},
-{
-    message: 'What is their ID number?',
-      name: 'id',
-      type: 'input',
-},
-{
-    message: 'What is their email?',
-      name: 'email',
-      type: 'input',
-},
-{
-    message: 'What is their Github username?',
-      name: 'github',
-      type: 'input',
-},
-]
-
-inq.prompt(quest).then( ans => {
-    // Put HTML file 
+test("getRole() testing to see if it actually returns \"Engineer\"", () => {
+  //define the test value, "Engineer"
+  const testValue = "Engineer";
+  const actualValue = new Engineer("Foo", 1, "test@test.com", testValue);
+  expect(actualValue.getRole()).toBe(testValue);
 })
+
+
+
+//describe("", () => {
+  //it ("", () => {
+
+    //const str = "";
+    //const result = new Algo().x(str);
+    //expect(result).toEqual(false);
+ // })
+//})
