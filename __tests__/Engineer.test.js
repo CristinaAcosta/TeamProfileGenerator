@@ -8,13 +8,3 @@ test("getRole() testing to see if it actually returns \"Engineer\"", () => {
   expect(actualValue.getRole()).toBe(testValue);
 })
 
-
-
-//describe("", () => {
-  //it ("", () => {
-
-    //const str = "";
-    //const result = new Algo().x(str);
-    //expect(result).toEqual(false);
- // })
-//})
